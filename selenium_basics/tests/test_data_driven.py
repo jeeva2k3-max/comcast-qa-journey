@@ -4,7 +4,11 @@ from data.test_data import TEST_PAGES
 
 
 def run_test(page):
-    with TestContext(page["url"]) as driver:
+    with TestContext(
+        page["url"],
+        test_name=page["url"].replace("https://", "").replace("/", "_")
+    ) as driver:
+
         actual_title = driver.title
 
         print(f"URL: {page['url']}")
