@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# Test artifacts
+logs/
+reports/
+screenshots/
+
+# IDE
+.vscode/
+.idea/
