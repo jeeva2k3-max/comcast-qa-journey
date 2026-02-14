@@ -1,4 +1,4 @@
-from utils.test_context import TestContext
+from utils.test_context import BrowserContext
 from utils.assertions import assert_equal
 from data.test_data import TEST_PAGES
 

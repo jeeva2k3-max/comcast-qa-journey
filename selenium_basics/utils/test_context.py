@@ -2,7 +2,8 @@ from utils.browser_utils import start_browser, close_browser
 from utils.screenshot_utils import take_screenshot
 
 
-class TestContext:
+class BrowserContext:
+
     def __init__(self, url, test_name="test"):
         self.url = url
         self.test_name = test_name
