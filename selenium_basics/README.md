@@ -30,3 +30,8 @@ failure diagnostics, screenshots, and HTML reporting.
 ```bash
 cd selenium_basics
 python -m tests.test_data_driven
+
+## 🚀 Execution
+### 💨 Run Smoke Suite (Quick Verification)
+```bash
+run_smoke.bat
