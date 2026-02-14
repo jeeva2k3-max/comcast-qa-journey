@@ -1,37 +1,29 @@
-# QA Automation Framework (Selenium + Python)
+# Selenium-Pytest Automation Framework
 
-## Overview
-This project is a modular, data-driven QA automation framework built using Python and Selenium.
-It demonstrates real-world testing concepts such as reusable utilities, assertions, logging,
-failure diagnostics, screenshots, and HTML reporting.
+![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
+![Selenium](https://img.shields.io/badge/selenium-4.x-green.svg)
+![Pytest](https://img.shields.io/badge/pytest-CI/CD-orange.svg)
 
-## Key Features
-- Data-driven test execution
-- Custom assertion framework
-- Automatic screenshot capture on failures
-- HTML test report generation
-- Modular utility-based architecture
-- Command-line execution
+## 📌 Project Overview
+A robust, data-driven automation framework designed for high-signal UI validation. This project utilizes **Pytest** for test orchestration and **Selenium WebDriver** for cross-browser automation, integrated with **GitHub Actions** for continuous testing.
 
-## Tech Stack
-- Python 3
-- Selenium WebDriver
-- ChromeDriver
-- HTML reporting
+### Key Features:
+* **CI/CD Integration:** Automated smoke tests on every push via GitHub Actions.
+* **Data-Driven Testing:** Parametrized test execution using external CSV/JSON data.
+* **Deterministic Setup:** Decoupled driver management using `webdriver-manager` for stability.
+* **Rich Reporting:** Auto-generated HTML reports with detailed failure logs.
 
-## Project Structure
-- `tests/` – Test execution logic
-- `utils/` – Browser, assertions, logging, screenshots, reporting
-- `data/` – Test input data
-- `reports/` – Generated HTML reports
-- `screenshots/` – Failure evidence
+---
 
-## How to Run Tests
+## 🚀 Getting Started
+
+### 1. Prerequisites
+* Python 3.10 or higher
+* Google Chrome Browser
+
+### 2. Installation
+Clone the repository and install dependencies:
 ```bash
+git clone [https://github.com/YOUR_USERNAME/selenium_basics.git](https://github.com/YOUR_USERNAME/selenium_basics.git)
 cd selenium_basics
-python -m tests.test_data_driven
-
-## 🚀 Execution
-### 💨 Run Smoke Suite (Quick Verification)
-```bash
-run_smoke.bat
+pip install -r requirements.txt
