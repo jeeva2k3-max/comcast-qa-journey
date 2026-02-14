@@ -1,3 +1,5 @@
-pytest
 selenium
+pytest
 pytest-html
+pytest-rerunfailures
+webdriver-manager
