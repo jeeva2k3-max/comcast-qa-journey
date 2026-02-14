@@ -1,0 +1,1 @@
+python -m pytest -v --html=reports/full_report.html

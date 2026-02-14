@@ -1,0 +1,1 @@
+python -m pytest -m regression -v --html=reports/regression_report.html
