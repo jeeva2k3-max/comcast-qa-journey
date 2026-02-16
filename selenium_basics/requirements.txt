@@ -1,5 +1,7 @@
-selenium
-pytest
+selenium>=4.0.0
+pytest>=7.0.0
 pytest-html
 pytest-rerunfailures
 webdriver-manager
+pytest-xdist
+python-dotenv
